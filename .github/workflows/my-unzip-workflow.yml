@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Use my Unzip Action
-        uses: vinu1A23/unzip-and-update-action@v1 # Replace with your actual repo and version
+        uses: vinu1A23/daily_learn@main # Replace with your actual repo and version
         with:
           zip_file_path: ${{ github.event.inputs.zip_path }}
           target_directories_to_clean: '' # Optional
