@@ -12,15 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Use my Unzip Action
-        uses: moehami/unzip-and-update-action@main # Replace with your actual repo and version
+      - name: Decompress
+        uses: TonyBogdanov/zip@1.0
         with:
-          zip_file_path: ${{ github.event.inputs.zip_path }}
-          target_directories_to_clean: '' # Optional
-          extracted_subfolder: 'DailyLearn-Android' # Optional, if your zip contains a top-level folder
-
-      - name: Verify extracted content (optional)
-        run: ls -la
+            args: unzip -qq ./${{ github.event.inputs.zip_path }} -d .
