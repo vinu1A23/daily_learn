@@ -15,4 +15,4 @@ jobs:
       - name: Decompress
         uses: TonyBogdanov/zip@1.0
         with:
-            args: unzip -qq ./${{ github.event.inputs.zip_path }} -d .
+            args: unzip -qq ${{ github.event.inputs.zip_path }} -d .
