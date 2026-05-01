@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DailyLearn" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Status bar / navigation bar to match the dark bg -->
+        <item name="android:statusBarColor">#0d0d14</item>
+        <item name="android:navigationBarColor">#15151f</item>
+        <item name="android:windowBackground">#0d0d14</item>
+        <!-- Accent colour matches --accent in CSS -->
+        <item name="colorPrimary">#7c6af5</item>
+        <item name="colorPrimaryVariant">#5a49d6</item>
+        <item name="colorOnPrimary">#ffffff</item>
+    </style>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Small notification icon — must be a single-colour (white) shape -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Open book silhouette -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="
+        M12,2
+        C10.5,2 8,2.5 6,4
+        L6,20
+        C8,18.5 10.5,18 12,18
+        C13.5,18 16,18.5 18,20
+        L18,4
+        C16,2.5 13.5,2 12,2 Z
+
+        M11,4.5
+        L11,16.5
+        C9.8,16.2 8.5,16 7,16.2
+        L7,4.7
+        C8.4,3.8 9.7,3.5 11,4.5 Z
+
+        M13,4.5
+        C14.3,3.5 15.6,3.8 17,4.7
+        L17,16.2
+        C15.5,16 14.2,16.2 13,16.5
+        L13,4.5 Z" />
+</vector>
