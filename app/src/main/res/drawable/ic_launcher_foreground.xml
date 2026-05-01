@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glow ring -->
+    <path
+        android:fillColor="#337c6af5"
+        android:pathData="M54,18 A36,36 0 1 1 53.9,18 Z" />
+
+    <!-- Book left page -->
+    <path
+        android:fillColor="#7c6af5"
+        android:pathData="
+        M54,28
+        C50,28 44,29 40,32
+        L40,76
+        C44,73 50,72 54,72 Z" />
+
+    <!-- Book right page -->
+    <path
+        android:fillColor="#a89cf7"
+        android:pathData="
+        M54,28
+        C58,28 64,29 68,32
+        L68,76
+        C64,73 58,72 54,72 Z" />
+
+    <!-- Spine highlight -->
+    <path
+        android:fillColor="#f0a500"
+        android:pathData="M53,28 L55,28 L55,72 L53,72 Z" />
+
+    <!-- Page lines left -->
+    <path
+        android:fillColor="#2a2a3d"
+        android:strokeColor="#2a2a3d"
+        android:strokeWidth="1.5"
+        android:pathData="M43,38 L52,37 M43,44 L52,43 M43,50 L52,49 M43,56 L52,55 M43,62 L52,61" />
+
+    <!-- Page lines right -->
+    <path
+        android:fillColor="#2a2a3d"
+        android:strokeColor="#1e1e2d"
+        android:strokeWidth="1.5"
+        android:pathData="M56,37 L65,38 M56,43 L65,44 M56,49 L65,50 M56,55 L65,56 M56,61 L65,62" />
+</vector>
